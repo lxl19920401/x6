@@ -1,0 +1,16 @@
+/**
+ * 主题类名配置文件
+ * 影响范围：主题色、页面与组件的统一样式等
+ */
+
+@import "var";
+
+/* 改变主题色变量 */
+$--color-primary: $primary-color;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+/* 通用 ui 类名 */
